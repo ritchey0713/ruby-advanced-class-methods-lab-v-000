@@ -29,5 +29,9 @@ class Song
     song.name = song_name
     song
   end
+  
+  def slef.find_by_name
+    self.all.find
+  end 
 
 end
