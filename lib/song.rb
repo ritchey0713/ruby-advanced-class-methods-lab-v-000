@@ -39,7 +39,7 @@ class Song
   end
   
   self.alphabetical 
-  @@all.
+  @@all.sort_by{}
 
 
 
