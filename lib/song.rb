@@ -30,8 +30,8 @@ class Song
     song
   end
   
-  def slef.find_by_name
-    self.all.find
+  def self.find_by_name
+    self.all.detect {|name| song.name == song_name }
   end 
 
 end
