@@ -46,8 +46,7 @@ end
 def self.new_from_filename(filename)
   splitter = filename.split("-")
   artist_name = splitter[0]
-  song_name = splitter[1]
-  song.name = song_name 
+
   
   
 end
